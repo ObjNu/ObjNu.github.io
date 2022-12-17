@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
+    <title>訂餐</title>
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- desktop view -->
+    <div class="container" id="container">
+        <div id="menu">
+            <!-- <div class="title">
+                <img src="./images/dogeLogo.jpg" alt="">
+            </div> -->
+            <div class="menu-item">
+                <a href="../index.html" class="logo"> <i class="fas fa-utensils"></i> 麩飯達 </a>
+                <a href="../index.html">首頁</a>
+                <a href="../index.html/#about">關於我們</a>
+                <a href="../index.html">熱門料理</a>
+                <!-- <a href="#menu">菜單</a> -->
+                <!-- <a href="#order">前往點餐</a> -->
+                <a href="#blogs">blogs</a>
+
+
+                <!-- icons -->
+                <div class="icons">
+                    <div id="social" class="fab fa-facebook-f"></div>
+                    <div id="social" class="fab fa-instagram"></div>
+                    <div id="social" class="fab fa-twitter"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="food-container">
+            <div id="header">
+                <div class="add-box">
+                    <i class="fa fa-map-marker your-address" id="add-address"> 運送地址</i>
+                </div>
+                <div class="util">
+                    <i class="fa fa-search"> 搜尋</i>
+                    <!-- <i class="fa fa-tags"> Offers</i> -->
+                    <i class="fa fa-cart-plus" id="cart-plus"> 0 項餐點</i>
+                </div>
+            </div>
+            <div id="food-items" class="d-food-items">
+                <div id="biryani" class="d-biryani">
+                    <p id="category-name">中式料理</p>
+                </div>
+
+                <div id="chicken" class="d-chicken">
+                    <p id="category-name">西式料理</p>
+                </div>
+
+                <div id="paneer" class="d-paneer">
+                    <p id="category-name">韓式料理</p>
+                </div>
+
+                <div id="vegetable" class="d-vegetable">
+                    <p id="category-name">素食</p>
+                </div>
+
+                <div id="chinese" class="d-chinese">
+                    <p id="category-name">南洋風味</p>
+                </div>
+
+                <div id="south-indian" class="d-south-indian">
+                    <p id="category-name">印度料理</p>
+                </div>
+            </div>
+
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title">購物車</p>
+                <p id="m-total-amount">總金額 : 100</p>
+                <table>
+                    <thead>
+                        <td>料理</td>
+                        <td>名稱</td>
+                        <td>數量</td>
+                        <td>價格</td>
+                    </thead>
+                    <tbody id="table-body">
+
+                    </tbody>
+                </table>
+                <div class="btn-box">
+                    <button class="cart-btn">結帳</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="cart">
+            <!-- <div class="taste-header">
+                <div class="user">
+                    <i class="fa fa-user-circle" id="circle"> 帳號</i> -->
+
+            <!-- </div> -->
+            <!-- </div> -->
+            <div id="category-list">
+                <p class="item-menu">類別</p>
+                <div class="border"></div>
+            </div>
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item">總數量 : 5</p>
+                <p id="total-price">總金額 :</p>
+                <p id="delievery">運費: $ 30</p>
+                <button class="cart-btn">結帳</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- mobile view -->
+    <div id="mobile-view" class="mobile-view">
+        <div class="mobile-top">
+            <div class="logo-box">
+                <!-- <img src="./images/dogeLogo.jpg"alt="" id="logo"> -->
+                <i class="fa fa-map-marker your-address" id="m-add-address"> 地址</i>
+            </div>
+            <div class="top-menu">
+                <i class="fa fa-search"></i>
+                <!-- <i class="fa fa-tag"></i> -->
+                <i class="fa fa-heart-o"></i>
+                <i class="fa fa-cart-plus" id="m-cart-plus"> 0</i>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <div class="category-header" id="category-header">
+            </div>
+
+            <div id="food-items" class="food-items">
+                <div id="biryani" class="m-biryani">
+                    <p id="category-name">中式料理</p>
+                </div>
+                <div id="chicken" class="m-chicken">
+                    <p id="category-name">西式料理</p>
+                </div>
+                <div id="paneer" class="m-paneer">
+                    <p id="category-name">韓式料理</p>
+                </div>
+                <div id="vegetable" class="m-vegetable">
+                    <p id="category-name">素食</p>
+                </div>
+                <div id="chinese" class="m-chinese">
+                    <p id="category-name">南洋風味</p>
+                </div>
+                <div id="south-indian" class="m-south-indian">
+                    <p id="category-name">印度料理</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-footer">
+            <a href="../index.html">首頁</a>
+            <a href="../index.html">關於我們</a>
+            <a href="../index.html">熱門料理</a>
+            <!-- <a href="#menu">菜單</a> -->
+            <!-- <a href="#order">前往點餐</a> -->
+            <a href="#blogs">blogs</a>
+        </div>
+    </div>
+    
+    <script src="cart.js" type="module"></script>
+</body>
+
+</html>
