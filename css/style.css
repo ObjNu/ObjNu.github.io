@@ -183,6 +183,14 @@ section {
   padding-top: 1rem;
 }
 
+.article-content-title {
+  font-size: 4rem;
+  color: #130f40;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
 .home .content p {
   font-size: 1.4rem;
   color: #666;
@@ -252,7 +260,7 @@ section {
   color: #130f40;
 }
 
-.about .content p {
+.about .content p ,.article-content-editor{
   padding: 1rem 0;
   line-height: 2;
   font-size: 1.4rem;
@@ -364,7 +372,7 @@ section {
   display: grid;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+  gap: 3rem;
 }
 
 .menu .box-container .box {
@@ -696,3 +704,22 @@ section {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+.cotainer{
+  display: flex;
+}
+
+.article-content-paragraph{
+  flex:none ;
+  width: 70%;
+}
+
+.aside{
+  flex:none ;
+  width: 30%;
+}
+
+.article-content-editor-image{
+margin: 2rem 0rem 1rem 0rem;
+
+}
