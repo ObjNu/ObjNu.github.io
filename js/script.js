@@ -1,4 +1,3 @@
-// 漢堡 背景隨滑鼠晃動
 let navbar = document.querySelector('.header .navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -12,6 +11,7 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 }
 
+// 漢堡 背景隨滑鼠晃動
 document.querySelector('.home').onmousemove = (e) =>{
 
     let x = (window.innerWidth - e.pageX * 2) / 90;
