@@ -2,7 +2,7 @@
 目前已設計主頁，購物車，介紹頁
 
 
-使用技術：Html Css JavaScript
+使用技術：Html Css JavaScript RWD
 
 
 點擊以下網址可前往靜態畫面
